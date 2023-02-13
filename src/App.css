@@ -1,0 +1,48 @@
+.fontcolor{
+  color: blueviolet;
+}
+
+.fontbrand{
+  color:blueviolet;
+  font-size: 2rem;
+}
+
+.firstdiv{
+  height: 30rem;
+  width: auto;
+  background-image: url(/public/Images/cloud.jpg);
+}
+
+.maintext{
+  padding: 15%;
+  font-size: 3rem;
+}
+
+.space2{
+  margin-top: 10px;
+}
+
+.flexcontainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.cardimg{
+  background-image: url(/public/Images/cloud.jpg);
+}
+
+@media only screen and (max-width: 830px) {
+  .flexcontainer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .cardspace{
+      margin-top: 0.5rem;
+  }
+
+  .maintext{
+      font-size: 2rem;
+  }
+}
